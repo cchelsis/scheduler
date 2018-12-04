@@ -8,7 +8,7 @@ class LibraryCourse extends Component {
                 { Icon('fas fa-check', 'library-course__icon') }
                 {/* {arrow component} */}
                 {/* {action button component} */}
-                { Icon('fas fa-plus-circle', 'library-course__action')}
+              
                 <div>
                     <label>Course Description</label>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ornare nunc, at rutrum elit. Nulla a facilisis enim. Proin volutpat metus massa, vel ullamcorper risus iaculis nec. Sed sem lectus, vulputate nec tincidunt ut, ultricies quis neque. </p>
