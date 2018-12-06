@@ -10,10 +10,10 @@ class LibraryCourse extends Component {
                     <label className="library_course__title">Problem Solving></label>
                     { Icon('fas fa-check', 'library-course__icon') }
                 </div>
-                {/* {arrow component} */}
+                
                 <Action className="library-course__action"/>
                 <Arrow className="library-course__arrow"/>
-                {/* { Icon('fas fa-plus-circle', 'library-course__action')} */}
+                
                 <div>
                     <label>Course Description</label>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ornare nunc, at rutrum elit. Nulla a facilisis enim. Proin volutpat metus massa, vel ullamcorper risus iaculis nec. Sed sem lectus, vulputate nec tincidunt ut, ultricies quis neque. </p>
