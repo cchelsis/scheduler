@@ -9,16 +9,16 @@ class LibraryCourse extends Component {
         return (
             <div className="library-course">
                 <div className="library-course__title-check">
-                    <label className="library_course__title">Problem Solving></label>
+                    <label className="library_course__title">{ this.props.title }</label>
                     { Icon('fas fa-check', 'library-course__icon') }
                 </div>
                 <Arrow className="library-course__arrow"/>
                 <Action className="library-course__action"/>
-                
-                
-                <div>
+                <div className="library-course__description">
                     <label>Course Description</label>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ornare nunc, at rutrum elit. Nulla a facilisis enim. Proin volutpat metus massa, vel ullamcorper risus iaculis nec. Sed sem lectus, vulputate nec tincidunt ut, ultricies quis neque. </p>
+                    <p>
+                        { this.props.description }
+                    </p>
                 </div>
             </div>
         )
